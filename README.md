@@ -1,10 +1,64 @@
-# AI4EDA: AI Works for Electronic Design Automation
+<div align="center">
+<img src="./AI4EDA.png" width="30%" alt="awesome-AIEDA-works" />
 
-We would like to maintain a list of resources that utilize AI to solve problems in Electronic Design Automation
+<h3> AI4EDA: AI Works for Electronic Design Automation </h3>
 
-## **AI for EDA Infrastructure**
+<p align="center">
+    <a title="GitHub Watchers" target="_blank" href="https://github.com/OSCC-Project/awesome-AIEDA-works/watchers">
+        <img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/OSCC-Project/awesome-AIEDA-works.svg?label=Watchers&style=social" />
+    </a>
+    <a title="GitHub Stars" target="_blank" href="hhttps://github.com/OSCC-Project/awesome-AIEDA-works/stargazers">
+        <img alt="GitHub Stars" src="https://img.shields.io/github/stars/OSCC-Project/awesome-AIEDA-works.svg?label=Stars&style=social" />
+    </a>
+    <a title="GitHub Forks" target="_blank" href="https://github.com/OSCC-Project/awesome-AIEDA-works/network/members">
+        <img alt="GitHub Forks" src="https://img.shields.io/github/forks/OSCC-Project/awesome-AIEDA-works.svg?label=Forks&style=social" />
+    </a>
+</p>
+</div>
 
-###  **Chip Data**
+
+🚀 A curated and structured collection of **AI-driven research, tools, datasets, and frameworks** for **Electronic Design Automation (EDA)** and **chip design automation**.
+
+This repository focuses on the intersection of:
+
+- ✅ Artificial Intelligence (AI)
+- ✅ Chip / IC Design
+- ✅ EDA Infrastructure
+- ✅ Physical Design & Logic Synthesis
+- ✅ AI Foundation Models for EDA
+- ✅ AI for Chip Design Automation
+
+> 📌 **This is an open-source, community-maintained list. Contributions are welcome.**
+
+---
+## 📚 Table of Contents
+
+- [1. AI for EDA Infrastructure](#1-ai-for-eda-infrastructure)
+  - [1.1 Chip Data](#11-chip-data)
+  - [1.2 AI for EDA Libraries & Tools](#12-ai-for-eda-libraries--tools)
+  - [1.3 AI for EDA Datasets](#13-ai-for-eda-datasets)
+- [2. AI for Logic Synthesis](#2-ai-for-logic-synthesis)
+  - [2.1 Circuit Representation & Analysis](#21-circuit-representation--analysis)
+  - [2.2 Logic Optimization](#22-logic-optimization)
+  - [2.3 Technology Mapping](#23-technology-mapping)
+  - [2.4 Exact Synthesis & Generative Models](#24-exact-synthesis--generative-models)
+- [3. AI for Physical Design](#3-ai-for-physical-design)
+  - [3.1 Placement](#32-placement)
+  - [3.2 Routing](#33-routing)
+  - [3.3 Timing & Power](#34-timing--power)
+  - [3.4 Routability & DRC](#35-routability--drc)
+- [4. AI for Verification](#4-ai-for-verification)
+- [5. AI for Test Synthesis](#5-ai-for-test-synthesis)
+- [6. AI for Hardware Security](#6-ai-for-hardware-security)
+- [7. AI for Physical-Level Simulation](#7-ai-for-physical-level-simulation)
+- [Contributing](#contributing)
+- [License](#license)
+---
+
+
+## **1. AI for EDA Infrastructure**
+
+###  **1.1 Chip Data**
 - CHIPS Alliance
 - ispras/hdl-benchmarks: Collection of Digital Hardware Modules & Projects Benchmarks
 - Unveiling the ISCAS-85 benchmarks: A case study in reverse engineering  
@@ -16,7 +70,7 @@ We would like to maintain a list of resources that utilize AI to solve problems 
 - efabless/openlane2-ci-designs: Continuous Integration Designs for OpenLane 2.0.0 or higher
 - Open Source Chip Project by University (OSCPU)
 
-### **AI for EDA Library**
+### **1.2 AI for EDA Library**
 - AiEDA: AiEDA: An Open-Source AI-Aided Design Library for Design-to-Vector
 - iEDA: An Open-source Infrastructure of EDA
 - iPD: An Open-source intelligent Physical Design Toolchain
@@ -28,7 +82,7 @@ We would like to maintain a list of resources that utilize AI to solve problems 
 - METRICS2.1 and Flow Tuning in the IEEE CEDA Robust Design Flow and OpenROAD ICCAD Special Session Pape
 - CircuitOps: An ML Infrastructure Enabling Generative AI for VLSI Circuit Optimization
 
-### **AI for EDA Dataset**
+### **1.3 AI for EDA Dataset**
 - Circuitnet: An open-source dataset for machine learning in vlsi cad applications with improved domain-specific evaluation metric and learning strategies  
 - Circuitnet 2.0: An advanced dataset for promoting machine learning innovations in realistic chip design environment  
 - ForgeEDA: A Comprehensive Multimodal Dataset for Advancing EDA
@@ -37,10 +91,10 @@ We would like to maintain a list of resources that utilize AI to solve problems 
 
 
 
-## **AI for Logic Synthesis**
+## **2. AI for Logic Synthesis**
 A Survey of Machine Learning Approaches in Logic Synthesis
 
-### **AI for Circuit Analysis**
+### **2.1 AI for Circuit Analysis**
 
 - Graph representation learning: a survey  
 - Drills: Deep reinforcement learning for logic synthesis  
@@ -78,7 +132,7 @@ A Survey of Machine Learning Approaches in Logic Synthesis
 - Polargate: Breaking the functionality representation bottleneck of and-inverter graph neural network
 
 
-### **AI for Logic Optimization**
+### **2.2 AI for Logic Optimization**
 
 - FRAIGs: A unifying representation for logic synthesis and verification  
 - Delay optimization using SOP balancing  
@@ -119,7 +173,7 @@ A Survey of Machine Learning Approaches in Logic Synthesis
 - Circuitvae: Efficient and scalable latent circuit optimization
 - AiLO: A Predictive Framework for Logic Optimization Using Multi-Scale Cross-Attention Transformer
 
-### **AI for Technology Mapping**
+### **2.3 AI for Technology Mapping**
 
 - A new retiming-based technology mapping algorithm for LUT-based FPGAs  
 - A survey of boolean matching techniques for library binding  
@@ -133,7 +187,7 @@ A Survey of Machine Learning Approaches in Logic Synthesis
 - Aimap: Learning to improve technology mapping for asics via delay prediction
 
 
-### **AI for Exact Synthesis**
+### **2.4 AI for Exact Synthesis**
 
 - Multiple-valued minimization for PLA optimization  
 - Practical sat-a tutorial on applied satisfiability solving  
@@ -160,21 +214,20 @@ A Survey of Machine Learning Approaches in Logic Synthesis
 - Beswac: Boosting exact synthesis via wiser sat solver call
 
 
-## **AI for Physical Design**
+## **3. AI for Physical Implementation**
 
-### **AI for Physical Design Dataset and Library**
+🚧 Under active expansion
+
+### **3.1 AI for Placement**
+
+### **3.2 AI for Routing**
+
+### **3.3 AI for Timing and Power**
+
+### **3.4 AI for Routability and DRC**
 
 
-### **AI for Placement**
-
-### **AI for Routing**
-
-### **AI for Timing and Power**
-
-### **AI for Routability and DRC**
-
-
-## **AI for Verification**
+## **4. I for Verification**
 - Machine learning methods in solving the boolean satisfiability problem  
 - Machine learning for automated theorem proving: Learning to solve sat and qsat  
 - Learning a sat solver from single-bit supervision  
@@ -193,7 +246,7 @@ A Survey of Machine Learning Approaches in Logic Synthesis
 - Nlocalsat: Boosting local search with solution prediction
 
 
-## **AI for Test Synthesis**
+## **5. AI for Test Synthesis**
 - On using machine learning for logic bist  
 - A survey and recent advances: Machine intelligence in electronic testing  
 - Test point insertion using artificial neural networks  
@@ -208,7 +261,7 @@ A Survey of Machine Learning Approaches in Logic Synthesis
 
 
 
-## **AI for Security**
+## **6. AI for Hardware Security**
 - Sail: Machine learning guided structural analysis attack on hardware obfuscation  
 - An oracle-less machine-learning attack against lookup-table-based logic locking  
 - Untangle: Unlocking routing and logic obfuscation using graph neural networks-based link prediction  
@@ -223,11 +276,35 @@ A Survey of Machine Learning Approaches in Logic Synthesis
 
 
 
-## **AI for Physical Simulation**
+## **7. AI for Physical Simulation**
 
+## **8. AI for TCAD Simulation**
 
+## **9. AI for Thermal Analysis**
 
+## **10. AI for Mechanical Stress**
+
+## **11. AI for EM / IR Drop Estimation**
+
+## 🤝 Contributing
+
+We welcome contributions from the community! You can contribute by:
+
+- Adding new papers, tools, datasets, or projects
+- Fixing links and formatting
+- Adding missing categories
+- Improving descriptions
+
+### How to contribute
 
 ```
-This is an open list. We welcome everyone to update it together.
+Fork this repo → Create a new branch → Make changes → Submit a PR
 ```
+
+
+## 📄 License
+
+This list is released under the MIT License.
+
+
+### **⭐ If you find this useful, please consider starring the repo and contributing!**
