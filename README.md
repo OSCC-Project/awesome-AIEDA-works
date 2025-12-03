@@ -38,6 +38,7 @@ We would like to maintain a list of resources that utilize AI to solve problems 
 
 
 ## **AI for Logic Synthesis**
+A Survey of Machine Learning Approaches in Logic Synthesis
 
 ### **AI for Circuit Analysis**
 
