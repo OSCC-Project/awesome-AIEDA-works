@@ -2,23 +2,42 @@
 
 We would like to maintain a list of resources that utilize AI to solve problems in Electronic Design Automation
 
+## **AI for EDA Infrastructure**
 
-## **AI for Logic Synthesis**
-
-### **AI for Logic Synthesis Dataset and Library**
-
-- The mnist database of handwritten digit images for machine learning research  
-- Learning multiple layers of features from tiny images  
-- Circuitnet: An open-source dataset for machine learning in vlsi cad applications with improved domain-specific evaluation metric and learning strategies  
-- Circuitnet 2.0: An advanced dataset for promoting machine learning innovations in realistic chip design environment  
-- OpenLS-DGF: An adaptive open-source dataset generation framework for machine learning tasks in logic synthesis  
-- Building openlane: a 130nm openroad-based tapeout-proven flow  
-- Open circuit design  
+###  **Chip Data**
+- CHIPS Alliance
+- ispras/hdl-benchmarks: Collection of Digital Hardware Modules & Projects Benchmarks
 - Unveiling the ISCAS-85 benchmarks: A case study in reverse engineering  
 - The epfl combinational benchmark suite  
 - Exact benchmark circuits for logic synthesis  
 - Opencores  
 - Rt-level itc’99 benchmarks and first atpg results
+- OSCC IP Project
+- efabless/openlane2-ci-designs: Continuous Integration Designs for OpenLane 2.0.0 or higher
+- Open Source Chip Project by University (OSCPU)
+
+### **AI for EDA Library**
+- AiEDA: AiEDA: An Open-Source AI-Aided Design Library for Design-to-Vector
+- iEDA: An Open-source Infrastructure of EDA
+- iPD: An Open-source intelligent Physical Design Toolchain
+- OpenLS-DGF: An adaptive open-source dataset generation framework for machine learning tasks in logic synthesis  
+- Building openlane: a 130nm openroad-based tapeout-proven flow
+- Toward an Open-Source Digital Flow: First Learnings from the OpenROAD Project
+- Benchmarking End-To-End Performance of AI-Based Chip Placement Algorithms
+- SiliconCompiler: A distributed approach to silicon compilation
+- METRICS2.1 and Flow Tuning in the IEEE CEDA Robust Design Flow and OpenROAD ICCAD Special Session Pape
+- CircuitOps: An ML Infrastructure Enabling Generative AI for VLSI Circuit Optimization
+
+### **AI for EDA Dataset**
+- Circuitnet: An open-source dataset for machine learning in vlsi cad applications with improved domain-specific evaluation metric and learning strategies  
+- Circuitnet 2.0: An advanced dataset for promoting machine learning innovations in realistic chip design environment  
+- ForgeEDA: A Comprehensive Multimodal Dataset for Advancing EDA
+- EDA-schema: A Graph Datamodel Schema and Open Dataset for Digital Design Automation
+- iDATA: Bridging AI and EDA with an Open-Source Multi-Modal Vector Dataset for Physical Design
+
+
+
+## **AI for Logic Synthesis**
 
 ### **AI for Circuit Analysis**
 
@@ -97,6 +116,7 @@ We would like to maintain a list of resources that utilize AI to solve problems 
 - Rl-mul: Multiplier design optimization with deep reinforcement learning  
 - Prefixrl: Optimization of parallel prefix circuits using deep reinforcement learning  
 - Circuitvae: Efficient and scalable latent circuit optimization
+- AiLO: A Predictive Framework for Logic Optimization Using Multi-Scale Cross-Attention Transformer
 
 ### **AI for Technology Mapping**
 
