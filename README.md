@@ -227,7 +227,7 @@ A Survey of Machine Learning Approaches in Logic Synthesis
 ### **3.4 AI for Routability and DRC**
 
 
-## **4. I for Verification**
+## **4. AI for Verification**
 - Machine learning methods in solving the boolean satisfiability problem  
 - Machine learning for automated theorem proving: Learning to solve sat and qsat  
 - Learning a sat solver from single-bit supervision  
